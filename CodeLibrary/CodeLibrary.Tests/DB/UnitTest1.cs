@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web.WebSockets;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CodeLibrary.Tests.DB
@@ -9,8 +10,9 @@ namespace CodeLibrary.Tests.DB
         [TestMethod]
         public void TestMethod1()
         {
-            CodeLibraryDB.DB DB=new CodeLibraryDB.DB();
-            DB.Open();
+            CodeLibraryDB.DB db = new CodeLibraryDB.DB();
+            db.Insert("aqa");
+
         }
     }
 }

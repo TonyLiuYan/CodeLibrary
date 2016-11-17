@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CodeLibraryDB.Model
 {
-    class OerateContent
+    public class OerateContent
     {
-       
+
     }
 }
